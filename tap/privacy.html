@@ -21,7 +21,7 @@ h1, h2 {
 
 <h1>Privacy Policy</h1>
 
-<p>Last updated: June 2026</p>
+<p>Last updated: July 2026</p>
 
 <p>
 Tap ("we", "our", or "us") respects your privacy. This Privacy Policy explains
@@ -37,9 +37,10 @@ and the choices available to users.
 <li>Email address when creating an account</li>
 <li>Username, display name, emoji avatar, and other profile information you choose to provide</li>
 <li>Friend connections, friend requests, taps, mood taps, custom taps, and related interactions</li>
+<li>Reports and blocks submitted through Tap's safety tools</li>
 <li>Push notification tokens used to deliver notifications</li>
 <li>Technical information such as device type, operating system version, app version, and basic diagnostic information</li>
-<li>Advertising-related information necessary to display rewarded advertisements, measure ad performance, prevent abuse, and reward users after completed rewarded ad views</li>
+<li>Advertising-related information described below when Google AdMob is used</li>
 </ul>
 
 <h2>How We Use Information</h2>
@@ -85,10 +86,23 @@ limit.
 
 <p>
 Advertising providers may collect and process limited device, usage,
-diagnostic, and advertising-related information to serve advertisements,
-measure ad performance, prevent fraud or abuse, and comply with their own
-policies and legal obligations. Their collection and use of information is
-governed by their own privacy policies.
+diagnostic, advertising, product-interaction, and approximate-location
+information to serve advertisements, measure ad performance, prevent fraud or
+abuse, and comply with their own policies and legal obligations. This may
+include IP-derived coarse location, device or app identifiers, ads viewed,
+interaction with rewarded ads, crash data, performance data, and other
+diagnostic data. Their collection and use of information is governed by their
+own privacy policies.
+</p>
+
+<p>
+Tap configures AdMob requests as non-personalized and does not request access
+to Apple's advertising identifier through App Tracking Transparency. Google
+User Messaging Platform (UMP) is used where required to obtain and manage
+privacy choices before ads are requested. Where Google requires a persistent
+privacy-options entry point, it is available in Tap under Settings → Privacy
+choices. Declining consent or an unavailable ad does not prevent normal use of
+Tap and does not grant an ad reward.
 </p>
 
 <h2>Push Notifications</h2>
@@ -106,9 +120,13 @@ the app.
 <p>
 If you choose to use Tap's contact-based invitation or friend discovery
 features, Tap may request access to your device contacts. Contact access is
-optional and is used only to help you find and invite friends. Phone numbers
-may be processed or compared solely to facilitate friend discovery and
-invitations.
+optional and is used only to help you select and invite a friend. Contacts are
+read locally. Tap does not upload or store your full contact list or contact
+names. After you choose a contact, only the selected phone number is normalized
+and SHA-256 hashed on your device before the hash is sent to Tap's server. The
+hash is treated as personal data and is used only for invitations and friend
+discovery. A name is sent only if you type it manually into the invitation
+form.
 </p>
 
 <h2>Data Storage and Security</h2>
